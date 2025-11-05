@@ -1,0 +1,49 @@
+@import "../../assets/styles/variables";
+
+.main-page {
+  background-color: $color-fondo;
+  min-height: 100vh;
+
+  .subheader {
+    padding: 1rem 2rem;
+    background-color: lighten($color-verde-padel, 25%);
+    h2 {
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+
+  .content {
+    text-align: center;
+    padding: 2rem;
+
+    .title {
+      margin-bottom: 2rem;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+  }
+}
+.reservas {
+  padding: 1.5rem 2rem;
+  background-color: lighten($color-verde-padel, 25%);
+
+  h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  .reservas-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .reserva-card {
+    background-color: $color-tarjeta;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 2px 5px $color-sombra;
+    font-size: 0.95rem;
+  }
+}
