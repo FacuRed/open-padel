@@ -7,8 +7,8 @@ const MainPage = () => {
     <div className="main-page">
       <Header />
         <section className="reservas">
-        <h2>Mis Reservas</h2>
             <div className="reservas-lista">
+                <h2>Mis próximas reservas</h2>
                 {/* Ejemplo temporal hasta conectar al back */}
                 <div className="reserva-card">
                 <p><strong>Club Central</strong> - Cancha 3</p>

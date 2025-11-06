@@ -11,10 +11,16 @@ const ClubCard = ({ name, image, location }) => {
         <p className="club-name">{name}</p>
 
         {/* Bloque de ubicación separado */}
-        <div className="club-location-box">
+        <div className="club-box">
           <span className="icon">🗺️</span>
           <p>
             <strong>Ubicación:</strong> {location}
+          </p>
+        </div>
+        <div className="club-box">
+          <span className="icon">📞</span>
+          <p>
+            <strong>Telefono:</strong> {location}
           </p>
         </div>
 

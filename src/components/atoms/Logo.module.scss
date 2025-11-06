@@ -1,0 +1,18 @@
+/* src/components/atoms/Logo.module.scss */
+@use '../../assets/styles/variables.scss' as *;
+@use "sass:color";
+
+.logo {
+  //height: $grid-unit * 5; /* 40px de altura estándar */
+  width: auto;
+  position: absolute;
+  top:50%;
+  transform: translateY(-47.5%);
+  left: $grid-unit * 2; /* 32px desde el borde izquierdo */
+
+}
+
+.large {
+  height: $grid-unit * 12; /* 48px */
+}
+// Puedes añadir más variantes de tamaño si es necesario

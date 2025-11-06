@@ -45,7 +45,7 @@
     }
 
     /* 🗺️ Cuadro de ubicación */
-    .club-location-box {
+    .club-box {
       display: flex;
       align-items: center;
       gap: 0.6rem;
@@ -56,7 +56,7 @@
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
       .icon {
-        font-size: 1.4rem;
+        font-size: 1rem;
       }
 
       p {
